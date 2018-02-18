@@ -15,6 +15,7 @@ app.get('/api/whoami',function(req,res){
     var langL=req.acceptsLanguages()[0];
     var software={
         "OS":req.useragent.os,
+        "Platform":req.useragent.platform,
         "Browser":req.useragent.browser
     };
     res.send({
