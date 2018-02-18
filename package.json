@@ -1,0 +1,28 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "Freecodecamp API challenge 2: Header-Parser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatkantinandi/header-parser-fcc.git"
+  },
+  "keywords": [
+    "Header-Parser",
+    "Freecodecamp",
+    "API-challenge"
+  ],
+  "author": "Rajat Kanti Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatkantinandi/header-parser-fcc/issues"
+  },
+  "homepage": "https://github.com/rajatkantinandi/header-parser-fcc#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-useragent": "^1.0.12"
+  }
+}
