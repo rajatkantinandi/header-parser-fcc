@@ -6,6 +6,7 @@ app.use(useragent.express());
 app.get('/',function(req,res){
     res.sendFile(path.join(__dirname,"views","index.html"));
 });
+app.enable('trust proxy');
 app.get('/style.css',function(req,res){
     res.sendFile(path.join(__dirname,"views","style.css"));
 });
